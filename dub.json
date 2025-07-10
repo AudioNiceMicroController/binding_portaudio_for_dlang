@@ -1,0 +1,27 @@
+{
+    "name": "portaudio-d",
+    "description": "D bindings for the PortAudio library",
+    "authors": ["John Doe"],
+    "license": "MIT",
+    "version": "0.1.0",
+    "targetType": "sourceLibrary",
+    "libs": ["portaudio"],
+    "importPaths": ["source"],
+    "versions": ["PortAudioBinding"],
+
+    "homepage": "https://github.com/AudioNiceMicroController/binding_portaudio_for_dlang",
+    
+    "dependencies": {},
+  
+    "configurations": [
+    {
+        "name": "library",
+        "targetType": "sourceLibrary"
+    },
+    {
+        "name": "example440hz",
+        "targetType": "executable",
+        "mainSourceFile": "examples/play440hz.d"
+    }
+]
+}
